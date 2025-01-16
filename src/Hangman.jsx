@@ -4,7 +4,7 @@ import './Hangman.css';
 const Hangman = () => {
   return (
     <main>
-      Game hoes here!
+      <h1>Assembly: Endgame</h1>
     </main>
   )
 }
