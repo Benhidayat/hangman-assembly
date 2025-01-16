@@ -1,6 +1,31 @@
-h1 {
+main {
+    display: flex;
+    justify-content: center;
+    width: 594px;
+    height: 730px;
+    margin-block-start: 2rem;
+    background-color: #282726;
+}
+
+.title__container {
+    width: 352px;
+    margin-block-start: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title__container h1 {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 26.06px;
     color: #F9F4DA;
+    margin-block-end: .5rem;
+}
+
+.title__container p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 18.24px;
+    text-align: center;
 }
