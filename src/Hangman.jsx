@@ -4,6 +4,7 @@ import { languages } from './language.js';
 
 const Hangman = () => {
     const [currentWord, setCurrentWord] = useState('react');
+    const [guessedLetter, setGuessedLetter] = useState([]);
 
     const alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
@@ -56,6 +57,7 @@ const Hangman = () => {
         <section className="keyboard__section">
             {keyboardElements}
         </section>
+        <button className="new__game-btn" type='button'>New Game</button>
     </main>
   )
 }
