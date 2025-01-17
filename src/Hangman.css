@@ -52,3 +52,41 @@ header p {
     line-height: 20.85px;
 }
 
+.language__section {
+    display: flex;
+    justify-content: center;
+    max-width: 350px;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-block-end: 2rem;
+}
+
+.language__section div {
+    padding: 0.481em;
+    border-radius: 3px;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 15.64px;
+}
+
+.word__section {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.word__section .letter {
+    width: 40px;
+    height: 40px;
+    background-color: #323232;
+    color:#F9F4DA;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #F9F4DA;
+
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 23.45px;
+}
